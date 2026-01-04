@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BEM KM FV 2026 - Kabinet Gelora Aksi">
+    <meta name="theme-color" content="#470000">
+    
+    <title>BEM KM FV UNY 2026 | Kabinet Gelora Aksi</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="logo-192.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo-kabinet.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- ===== LOADING SCREEN ===== -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="logo-reveal-container">
+                <img src="logo-kabinet.png" alt="Logo" class="logo-silhouette">
+                <img src="logo-kabinet.png" alt="Logo" class="logo-colored">
+                <div class="shimmer-overlay"></div>
+            </div>
+            
+            <div class="loading-bar-container">
+                <div class="loading-bar">
+                    <div class="loading-bar-fill"></div>
+                </div>
+                <p class="loading-text">Memuat<span class="loading-dots"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="nav-brand">
+                    <img src="logo-kabinet.png" alt="Logo BEM" class="nav-logo">
+                    <span class="nav-brand-text">GELORA AKSI</span>
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Beranda</a></li>
+                    <li><a href="#tentang" class="nav-link">Tentang</a></li>
+                    <li><a href="#filosofi-logo" class="nav-link">Filosofi Logo</a></li>
+                    <li><a href="#visi-misi" class="nav-link">Visi & Misi</a></li>
+                    <li><a href="#nilai-organisasi" class="nav-link">Nilai</a></li>
+                    <li><a href="#budaya-organisasi" class="nav-link">Budaya</a></li>
+                    <li><a href="#program-unggulan" class="nav-link">Program</a></li>
+                    <li><a href="#rencana-strategis" class="nav-link">Rencana</a></li>
+                    <li><a href="#struktur" class="nav-link">Struktur</a></li>
+                    <li><a href="#recruitment" class="nav-link nav-link-recruitment">
+                        <i class="fas fa-user-plus"></i> Recruitment
+                    </a></li>
+                    <li><a href="#hubungi-kami" class="nav-link">Kontak</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-particles"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-logo">
+                    <img src="logo-kabinet.png" alt="Logo Kabinet">
+                </div>
+                <h1 class="hero-title">KABINET GELORA AKSI</h1>
+                <p class="hero-subtitle">BEM KM FV UNY 2026</p>
+                <p class="hero-tagline">SATUKAN PRAKTISI GELORAKAN AKSI</p>
+                <div class="hero-buttons">
+                    <a href="#tentang" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        <span>KENALI KAMI</span>
+                    </a>
+                    <a href="#recruitment" class="btn btn-primary" id="btn-daftar">
+                        <i class="fas fa-user-plus"></i>
+                        <span>DAFTAR SEKARANG</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- ===== TENTANG KAMI ===== -->
+    <section id="tentang" class="section section-tentang">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">TENTANG KAMI</h2>
+                <div class="title-divider"></div>
+                <p class="section-subtitle">Mengenal Lebih Dekat Kabinet GELORA AKSI</p>
+            </div>
+            
+            <div class="tentang-content">
+                <div class="tentang-text" data-aos="fade-right">
+                    <h3>SELAYANG PANDANG</h3>
+                    <p>Fakultas Vokasi Universitas Negeri Yogyakarta telah berdiri sejak 2023 atas gabungan dari beberapa fakultas seperti Fakultas Teknik, Fakultas Ekonomi dan Bisnis serta Fakultas Ilmu Keolahragaan dan Kesehatan. Dengan pendidikan vokasi, Fakultas ini terdiri pula atas 6 departemen. Keberagaman yang telah menjadi nilai juang fakultas vokasi perlu disikapi dengan sinergitas aksi dan keberagaman didalamnya untuk mewujudkan visi Fakultas Vokasi. Dalam perjalanan berdirinya Fakultas Vokasi sendiri juga telah memiliki Badan Eksekutif Mahasiswa yang menjadi wadah kolaborasi dan aksi mahasiswa.</p>
+                    <p>Dalam perjalanannya BEM KM FV UNY telah mengalami berbagai perubahan, tantangan hingga penyesuaian dinamika. Seiring pula dengan perkembangan zaman yang semakin cepat, BEM KM FV UNY berkomitmen menjadi jembatan aspirasi, wadah pengembangan diri, serta motor penggerak kebangkitan mahasiswa vokasi yang berkelanjutan, khususnya dalam mendukung kualitas pendidikan dan karakter mahasiswa. Dengan semangat bergerak bersama, berdaya bersama, dan berdampak bersama, BEM KM FV UNY hadir untuk mendukung Fakultas Vokasi UNY sebagai rumah tumbuh mahasiswa yang tangguh, kreatif, berintegritas, dan siap mengambil peran nyata di tengah masyarakat.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4 class="stat-number" data-target="300">0</h4>
+                            <p class="stat-label">Mahasiswa Terlibat</p>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <h4 class="stat-number" data-target="50">0</h4>
+                            <p class="stat-label">Program Kerja</p>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="stat-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <h4 class="stat-number" data-target="3">0</h4>
+                            <p class="stat-label">Periode</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tentang-image" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <img src="Kampus Vokasi.jpg" alt="BEM GELORA AKSI">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- ===== FILOSOFI LOGO ===== -->
+<section id="filosofi-logo" class="filosofi-section">
+    <div class="container">
+        <!-- Header -->
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">FILOSOFI LOGO KABINET</h2>
+            <div class="title-divider"></div>
+            <p class="section-subtitle">Makna Setiap Elemen dalam Logo Kabinet Gelora Aksi</p>
+        </div>
+
+        <!-- Logo Display -->
+        <div class="logo-display" data-aos="zoom-in">
+            <img src="logo-kabinet.png" alt="Logo Kabinet Gelora Aksi">
+        </div>
+
+        <!-- Filosofi Cards -->
+        <div class="filosofi-grid">
+            <!-- Card 1: Kepala Elang -->
+            <div class="filosofi-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="filosofi-icon filosofi-icon-custom">
+                    <img src="Kepala Elang.png" alt="Kepala Elang">
+                </div>
+                <h4>KEPALA ELANG</h4>
+                <p>Melambangkan kepemimpinan dan kebijaksanaan BEM Fakultas Vokasi UNY dalam menentukan arah gerak organisasi. Tatapan elang yang tajam menggambarkan visi luas dan kemampuan dalam melihat peluang serta tantangan dari ketinggian, layaknya pemimpin yang berpandangan jauh kedepan demi kemajuan mahasiswa vokasi.</p>
+            </div>
+
+            <!-- Card 2: Mata Elang -->
+            <div class="filosofi-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="filosofi-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h4>MATA ELANG BERWARNA BIRU</h4>
+                <p>Melambangkan nilai moral, kebijaksanaan, serta ketenangan dalam bersikap. Warna biru juga merepresentasikan integritas dan keteguhan hati mahasiswa vokasi dalam menjaga prinsip dan tanggung jawabnya sebagai agen perubahan di lingkungan kampus.</p>
+            </div>
+
+            <!-- Card 3: Dua Jambul -->
+            <div class="filosofi-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="filosofi-icon">
+                    <i class="fas fa-mountain"></i>
+                </div>
+                <h4>DUA JAMBUL ELANG</h4>
+                <p>Menandakan dua kampus yang dimiliki oleh Fakultas Vokasi UNY. Keduanya berdiri sejajar, melambangkan keselarasan dan sinergi antara dua kampus dalam mewujudkan satu cita bersama — yaitu mencetak mahasiswa vokasi yang profesional, berkarakter, dan berdaya saing tinggi.</p>
+            </div>
+
+            <!-- Card 4: Enam Helai Bulu -->
+            <div class="filosofi-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="filosofi-icon">
+                    <i class="fas fa-feather-alt"></i>
+                </div>
+                <h4>ENAM HELAI BULU ELANG</h4>
+                <p>Menggambarkan enam departemen yang ada di Fakultas Vokasi UNY. Setiap helai merepresentasikan keberagaman bidang ilmu yang berbeda, namun tetap bersatu dalam semangat kolaboratif untuk mengembangkan potensi dan kualitas pendidikan vokasi.</p>
+            </div>
+
+            <!-- Card 5: Dua Kobaran Api -->
+            <div class="filosofi-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="filosofi-icon">
+                    <i class="fas fa-fire"></i>
+                </div>
+                <h4>DUA KOBARAN API</h4>
+                <p>Melambangkan semangat dan kerja sama antara dua kampus Fakultas Vokasi UNY. Api yang menyala mencerminkan energi, keberanian, dan tekad mahasiswa untuk terus berjuang dan berinovasi demi kemajuan bersama.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- ===== VISI & MISI ===== -->
+    <section id="visi-misi" class="section section-visi-misi">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">VISI & MISI</h2>
+                <div class="title-divider"></div>
+            </div>
+            
+            <div class="visi-misi-content">
+                <div class="visi-box" data-aos="fade-right">
+                    <div class="visi-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>VISI</h3>
+                    <p>“Terwujudnya BEM KM Fakultas Vokasi sebagai wadah kolaborasi dan aksi mahasiswa Fakultas Vokasi yang progresif, berintegritas dan adaptif melalui pembentukan pengurus berkompeten serta memperkuat sinergi kemahasiswaan Fakultas Vokasi dengan semangat perubahan”</p>
+                </div>
+                
+                <div class="misi-box" data-aos="fade-left">
+                    <div class="misi-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>MISI</h3>
+                    <ol class="misi-list">
+                        <li>Mengoptimalkan sistem kaderisasi internal yang sistematis dan berkelanjutan untuk membentuk pengurus BEM KM Fakultas Vokasi yang kompeten, profesional dan memiliki jiwa kepemimpinan yang terarah.</li>
+                        <li>Membangun budaya organisasi yang suportif, profesional dan berasaskan kekeluargaan sebagai pondasi utama internal BEM KM Fakultas Vokasi.</li>
+                        <li>Menjalin komunikasi aktif dan membangun kolaborasi harmonis dengan seluruh elemen organisasi kemahasiswaan Fakultas Vokasi, hingga elemen organisasi kemahasiswaan Vokasi tingkat nasional.</li>
+                        <li>Menyediakan ruang partisipatif guna mendorong potensi sumber daya mahasiswa Fakultas Vokasi melalui program kerja yang realistis, terarah dan tepat sasaran.</li>
+                        <li>Mengoptimalkan fungsi advokasi dan pelayanan kesejahteraan mahasiswa secara responsif dan solutif sebagai garda terdepan dalam memperjuangkan hak serta kebutuhan mahasiswa.</li>
+                        <li>Adaptif dan terlibat dalam gerakan serta kajian strategis sebagai respon terhadap isu kemahasiswaan dan sosial.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- ========================================
+     SECTION: NILAI ORGANISASI AKSI
+     ======================================== -->
+<section id="nilai-organisasi" class="section-padding">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-subtitle">Nilai Organisasi</span>
+            <h2 class="section-title">NILAI ORGANISASI <span class="highlight">AKSI</span></h2>
+            <p class="section-description">
+                Empat nilai fundamental yang menjadi landasan gerak organisasi BEM KM Fakultas Vokasi UNY
+            </p>
+        </div>
+
+        <!-- Nilai Cards Grid -->
+        <div class="nilai-grid">
+            
+            <!-- Card 1: ADAPTIF -->
+            <div class="nilai-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="nilai-header">
+                    <div class="nilai-letter">A</div>
+                    <h3 class="nilai-title">"A"DAPTIF</h3>
+                </div>
+                <p class="nilai-description">
+                    Membangun BEM KM FV UNY yang mampu beradaptasi cepat terhadap perubahan dinamika kampus dan eksternal.
+                </p>
+            </div>
+
+            <!-- Card 2: KOLABORATIF -->
+            <div class="nilai-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="nilai-header">
+                    <div class="nilai-letter">K</div>
+                    <h3 class="nilai-title">"K"OLABORATIF</h3>
+                </div>
+                <p class="nilai-description">
+                    Mengedepankan semangat kerja sama dan kemitraan yang kuat, baik di internal pengurus, antarlembaga mahasiswa, maupun dengan pihak dekanat, dosen, dan komunitas luar.
+                </p>
+            </div>
+
+            <!-- Card 3: SINERGI -->
+            <div class="nilai-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="nilai-header">
+                    <div class="nilai-letter">S</div>
+                    <h3 class="nilai-title">"S"INERGI</h3>
+                </div>
+                <p class="nilai-description">
+                    Menciptakan keselarasan dan keterpaduan gerak seluruh elemen organisasi agar setiap program kerja saling mendukung dan memperkuat satu sama lain.
+                </p>
+            </div>
+
+            <!-- Card 4: INOVATIF -->
+            <div class="nilai-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="nilai-header">
+                    <div class="nilai-letter">I</div>
+                    <h3 class="nilai-title">"I"NOVATIF</h3>
+                </div>
+                <p class="nilai-description">
+                    Mendorong budaya kreativitas dan terobosan dalam setiap inisiatif dan program kerja.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+   <!-- ========================================
+     SECTION: BUDAYA ORGANISASI
+     ======================================== -->
+<section id="budaya-organisasi" class="section-padding">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-subtitle">Budaya Organisasi</span>
+            <h2 class="section-title">BUDAYA <span class="highlight">ORGANISASI</span></h2>
+            <p class="section-description">
+                Prinsip kerja dan nilai-nilai yang menjadi landasan budaya organisasi BEM KM Fakultas Vokasi UNY
+            </p>
+        </div>
+
+        <!-- Prinsip Kerja -->
+        <div class="prinsip-kerja-box" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="prinsip-title">PRINSIP KERJA</h3>
+            <div class="prinsip-list">
+                <div class="prinsip-item">
+                    <div class="prinsip-bullet"></div>
+                    <span>Kerja Cerdas</span>
+                </div>
+                <div class="prinsip-item">
+                    <div class="prinsip-bullet"></div>
+                    <span>Kerja Tuntas</span>
+                </div>
+                <div class="prinsip-item">
+                    <div class="prinsip-bullet"></div>
+                    <span>Kerja Ikhlas</span>
+                </div>
+                <div class="prinsip-item">
+                    <div class="prinsip-bullet"></div>
+                    <span>Kerja Keras</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 Pilar Respect -->
+        <div class="respect-grid">
+            
+            <!-- Card 1: Respect to Time -->
+            <div class="respect-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="respect-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                </div>
+                <h3 class="respect-title">RESPECT TO TIME</h3>
+                <ul class="respect-list">
+                    <li>Effective-Efficient, tidak membuang waktu.</li>
+                    <li>Mampu menentukan prioritas.</li>
+                </ul>
+            </div>
+
+            <!-- Card 2: Respect to System -->
+            <div class="respect-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="respect-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                    </svg>
+                </div>
+                <h3 class="respect-title">RESPECT TO SYSTEM</h3>
+                <ul class="respect-list">
+                    <li>Patuh pada peraturan, keputusan dan kebijakan yang dibuat.</li>
+                    <li>Menjaga nama baik almamater.</li>
+                </ul>
+            </div>
+
+            <!-- Card 3: Respect to Other -->
+            <div class="respect-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="respect-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                </div>
+                <h3 class="respect-title">RESPECT TO OTHER</h3>
+                <ul class="respect-list">
+                    <li>Berpikir berkata dan bersikap positif antar sesama.</li>
+                    <li>Aktif mengkomunikasikan masalah atau hambatan.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Hashtag Footer -->
+        <div class="budaya-footer" data-aos="fade-up" data-aos-delay="500">
+            <p class="hashtag">#SATUKANPRAKTISIGELORAKANAKSI</p>
+        </div>
+
+    </div>
+</section>
+<!-- ========================================
+     SECTION: PROGRAM UNGGULAN
+     ======================================== -->
+<section id="program-unggulan" class="section section-red">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title section-title-light">PROGRAM <span class="highlight-light">UNGGULAN</span></h2>
+            <p class="section-description section-description-light">
+                
+            </p>
+        </div>
+
+        <!-- Program Cards Grid -->
+        <div class="program-grid">
+            
+            <!-- Program 1: Vokasi Muda Berdaya -->
+            <div class="program-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="program-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3 class="program-title">VOKASI MUDA BERDAYA</h3>
+                <p class="program-description">
+                    Kegiatan Pengabdian Masyarakat dikemas dengan satu kepanitiaan yang nantinya akan melakukan pengabdian pada dua wilayah yang berbeda secara bergantian.
+                </p>
+                <div class="program-tags">
+                    <span class="tag">Pemberdayaan</span>
+                    <span class="tag">Pelatihan</span>
+                    <span class="tag">Mentoring</span>
+                </div>
+            </div>
+
+            <!-- Program 2: Apresiasi Mapres -->
+            <div class="program-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="program-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <h3 class="program-title">APRESIASI MAPRES</h3>
+                <p class="program-description">
+                    Media apresiasi dari BEM untuk menampilkan para mahasiswa berprestasi berserta kesan, pesan dan cerita singkatnya mulai dari proses hingga sampai pada sebuah kejuaraan.
+                </p>
+                <div class="program-tags">
+                    <span class="tag">Apresiasi</span>
+                    <span class="tag">Prestasi</span>
+                    <span class="tag">Penghargaan</span>
+                </div>
+            </div>
+
+            <!-- Program 3: Report Triwulan -->
+            <div class="program-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="program-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3 class="program-title">REPORT TRIWULAN</h3>
+                <p class="program-description">
+                    Media report BEM yang akan menampilkan progres keterlaksanaan program kerja BEM yang secara spesifik terdapat nilai kuantitatif dan kualitatifnya.
+                </p>
+                <div class="program-tags">
+                    <span class="tag">Transparansi</span>
+                    <span class="tag">Akuntabilitas</span>
+                    <span class="tag">Evaluasi</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+   <!-- ========================================
+     SECTION: RENCANA STRATEGIS
+     ======================================== -->
+<section id="rencana-strategis" class="section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">RENCANA <span class="highlight">STRATEGIS</span></h2>
+            <p class="section-description">
+                Rencana Strategis Badan, Departemen, Biro dan Divisi BEM KM Fakultas Vokasi UNY Periode 2026
+            </p>
+        </div>
+
+        <!-- Strategis Content -->
+        <div class="strategis-wrapper">
+
+            <!-- 1. KESEKJENAN -->
+            <div class="strategis-group" data-aos="fade-up" data-aos-delay="100">
+                <div class="strategis-header-main" onclick="toggleStrategis(this)">
+                    <div class="strategis-left">
+                        <div class="strategis-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="strategis-info">
+                            <h3 class="strategis-title">KESEKJENAN</h3>
+                            <p class="strategis-subtitle">2 Biro</p>
+                        </div>
+                    </div>
+                    <div class="strategis-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="strategis-content">
+                    <p class="strategis-description">
+                        Kesekjenan diarahkan pada penguatan tata kelola organisasi yang sistematis, tertib, dan berkelanjutan. Kesekjenan berperan sebagai pusat koordinasi administratif dan komunikasi internal guna memastikan seluruh aktivitas organisasi berjalan selaras dengan visi BEM sebagai wadah kolaborasi dan aksi mahasiswa yang progresif, berintegritas, dan adaptif. Melalui pengelolaan inventaris, serta alur koordinasi yang jelas melalui rapat koordinasi hingga rapat internal, Kesekjenan mendukung terwujudnya pengurus yang profesional dan berkompeten.
+                    </p>
+                    
+                    <!-- Sub Units -->
+                    <div class="sub-units">
+                        <!-- Biro Administrasi -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-file-alt"></i>
+                                <h4>Biro Administrasi</h4>
+                            </div>
+                            <p>
+                                Biro Administrasi difokuskan pada penciptaan sistem administrasi organisasi yang rapi, terstandarisasi, dan mudah diakses. Biro ini menjadi penopang budaya kerja profesional dengan memastikan seluruh dokumen organisasi dikelola secara tertib dan akuntabel melalui format dokumen, controlling dokumen hingga pengelolaan arsip dokumen. Dengan tata administrasi yang baik, Biro Administrasi turut mendukung efektivitas kerja pengurus serta memperkuat integritas kelembagaan BEM KM Fakultas Vokasi.
+                            </p>
+                        </div>
+
+                        <!-- Biro Keuangan -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-wallet"></i>
+                                <h4>Biro Keuangan</h4>
+                            </div>
+                            <p>
+                                Biro Keuangan diarahkan pada pengelolaan keuangan organisasi yang transparan, akuntabel, dan bertanggung jawab. Biro ini berperan menjaga kepercayaan internal melalui tata kelola keuangan yang profesional, sekaligus mendukung keberlanjutan organisasi. Pengelolaan keuangan yang baik menjadi landasan penting bagi terciptanya organisasi yang adaptif, solutif, dan berintegritas sesuai dengan visi dan misi BEM KM Fakultas Vokasi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. BJMO -->
+            <div class="strategis-group" data-aos="fade-up" data-aos-delay="200">
+                <div class="strategis-header-main" onclick="toggleStrategis(this)">
+                    <div class="strategis-left">
+                        <div class="strategis-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="strategis-info">
+                            <h3 class="strategis-title">BADAN JAMINAN MUTU ORGANISASI</h3>
+                            <p class="strategis-subtitle">2 Biro</p>
+                        </div>
+                    </div>
+                    <div class="strategis-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="strategis-content">
+                    <p class="strategis-description">
+                        Badan Jaminan Mutu Organisasi merupakan badan yang berperan dalam menjaga kualitas kinerja, budaya, dan keberlanjutan organisasi BEM KM Fakultas Vokasi. Rencana strategis badan ini diarahkan pada pengawasan, evaluasi, serta penguatan sistem internal agar seluruh pengurus dapat bekerja secara profesional, terarah, dan selaras dengan visi organisasi. Melalui pembinaan sumber daya manusia dan penguatan tata kelola organisasi, BJMO menjadi penopang terciptanya organisasi yang berintegritas, adaptif, dan berkelanjutan.
+                    </p>
+                    
+                    <!-- Sub Units -->
+                    <div class="sub-units">
+                        <!-- Biro Personalia -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-users-cog"></i>
+                                <h4>Biro Personalia</h4>
+                            </div>
+                            <p>
+                                Rencana strategis biro ini difokuskan pada penciptaan lingkungan organisasi yang suportif, humanis, dan apresiatif. Melalui kegiatan monitoring, biro ini memastikan keaktifan, kedisiplinan, serta kinerja pengurus tetap terjaga secara berkelanjutan. Selain itu, pelaksanaan Staff Award menjadi bentuk penghargaan atas dedikasi dan kontribusi pengurus, sementara Birthday Card dihadirkan sebagai upaya membangun kedekatan emosional dan budaya kekeluargaan di dalam organisasi. Seluruh upaya ini diarahkan untuk meningkatkan motivasi, loyalitas, dan rasa memiliki pengurus terhadap BEM KM Fakultas Vokasi.
+                            </p>
+                        </div>
+
+                        <!-- Biro Keorganisasian -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-sitemap"></i>
+                                <h4>Biro Keorganisasian</h4>
+                            </div>
+                            <p>
+                                Biro Keorganisasian berperan dalam menjaga stabilitas struktur dan dinamika organisasi. Rencana strategis biro ini diarahkan pada penguatan kapasitas organisasi serta kesinambungan kepengurusan. Melalui kegiatan upgrading, biro berupaya meningkatkan pemahaman dan kemampuan pengurus terhadap peran serta tanggung jawab organisasi. Evaluasi triwulan dilakukan sebagai sarana refleksi dan pengendalian kinerja organisasi secara berkala, sedangkan proses demisioner dikelola secara tertib dan beretika sebagai bentuk penghormatan dan apresiasi terhadap kontribusi pengurus serta upaya menjaga kesinambungan organisasi di periode berikutnya.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. SOSMAS -->
+            <div class="strategis-group" data-aos="fade-up" data-aos-delay="300">
+                <div class="strategis-header-main" onclick="toggleStrategis(this)">
+                    <div class="strategis-left">
+                        <div class="strategis-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <div class="strategis-info">
+                            <h3 class="strategis-title">DEPARTEMEN SOSIAL MASYARAKAT</h3>
+                            <p class="strategis-subtitle">2 Divisi</p>
+                        </div>
+                    </div>
+                    <div class="strategis-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="strategis-content">
+                    <p class="strategis-description">
+                        Departemen Sosial Masyarakat merupakan wadah aktualisasi peran mahasiswa Fakultas Vokasi dalam menjawab persoalan sosial di lingkungan kampus maupun masyarakat. Rencana strategis departemen ini diarahkan pada penguatan kepedulian sosial, peningkatan kepekaan terhadap dinamika kemasyarakatan, serta mendorong keterlibatan aktif mahasiswa dalam aksi sosial yang berorientasi pada kebermanfaatan dan keberlanjutan. SOSMAS hadir sebagai wujud nyata semangat kolaborasi dan aksi mahasiswa vokasi yang progresif, adaptif, dan berintegritas.
+                    </p>
+                    
+                    <!-- Sub Units -->
+                    <div class="sub-units">
+                        <!-- Divisi Pengabdian -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-hand-holding-heart"></i>
+                                <h4>Divisi Pengabdian</h4>
+                            </div>
+                            <p>
+                                Divisi Pengabdian berfokus pada penguatan peran mahasiswa sebagai agen pemberdayaan masyarakat. Rencana strategis divisi ini diarahkan pada upaya membangun kesadaran sosial serta mendorong kontribusi mahasiswa melalui kegiatan pengabdian yang partisipatif dan berdampak di wilayah kampus Vokasi yaitu Kabupaten Kulon Progo dan Kabupaten Gunung Kidul. Divisi ini harus menanamkan nilai kepedulian, empati, dan tanggung jawab sosial sebagai bagian dari identitas mahasiswa Fakultas Vokasi yang siap terjun dan berkontribusi langsung di tengah masyarakat.
+                            </p>
+                        </div>
+
+                        <!-- Divisi Respon Sosial -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-bullhorn"></i>
+                                <h4>Divisi Respon Sosial</h4>
+                            </div>
+                            <p>
+                                Divisi Respon Sosial berperan sebagai garda terdepan dalam merespons isu dan kondisi sosial yang membutuhkan perhatian cepat dan tepat. Rencana strategis divisi ini difokuskan pada pembentukan sikap tanggap, sigap, dan solutif dalam menghadapi permasalahan sosial dan kemanusiaan. Melalui pendekatan yang adaptif dan kolaboratif, Divisi Respon Sosial memastikan BEM KM Fakultas Vokasi hadir sebagai organisasi yang peka terhadap kondisi sosial dan mampu memberikan respon yang relevan serta bertanggung jawab.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. PSDM -->
+            <div class="strategis-group" data-aos="fade-up" data-aos-delay="400">
+                <div class="strategis-header-main" onclick="toggleStrategis(this)">
+                    <div class="strategis-left">
+                        <div class="strategis-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="strategis-info">
+                            <h3 class="strategis-title">DEPARTEMEN PENGEMBANGAN SUMBER DAYA MAHASISWA</h3>
+                            <p class="strategis-subtitle">2 Divisi</p>
+                        </div>
+                    </div>
+                    <div class="strategis-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="strategis-content">
+                    <p class="strategis-description">
+                        Departemen Pengembangan Sumber Daya Mahasiswa merupakan departemen yang berperan strategis dalam proses kaderisasi dan pengembangan kapasitas mahasiswa Fakultas Vokasi. Rencana strategis departemen ini diarahkan pada pembentukan mahasiswa yang kompeten, adaptif, dan memiliki jiwa kepemimpinan yang terarah. PSDM menjadi pondasi utama dalam mewujudkan mahasiswa dengan prinsip kerja profesional, suportif, serta berkelanjutan melalui proses pengembangan sumber daya manusia yang sistematis dan terstruktur.
+                    </p>
+                    
+                    <!-- Sub Units -->
+                    <div class="sub-units">
+                        <!-- Divisi Pengembangan Lanjut -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-level-up-alt"></i>
+                                <h4>Divisi Pengembangan Lanjut</h4>
+                            </div>
+                            <p>
+                                Divisi Pengembangan Lanjut berfokus pada penguatan kapasitas mahasiswa dalam tahap lanjutan setelah memasuki lingkungan kampus dan organisasi. Rencana strategis divisi ini diarahkan pada pendampingan dan pengembangan mahasiswa agar mampu memahami dinamika kehidupan kampus, meningkatkan kualitas diri, serta mempersiapkan mahasiswa untuk berperan aktif dan bertanggung jawab dalam kegiatan kemahasiswaan dan organisasi. Divisi ini menjadi jembatan antara mahasiswa baru dengan proses pengembangan diri yang berkelanjutan.
+                            </p>
+                        </div>
+
+                        <!-- Divisi Pengembangan Dasar -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-seedling"></i>
+                                <h4>Divisi Pengembangan Dasar</h4>
+                            </div>
+                            <p>
+                                Divisi Pengembangan Dasar berperan dalam pembentukan karakter awal, kepemimpinan, dan solidaritas mahasiswa. Rencana strategis divisi ini difokuskan pada penanaman nilai-nilai dasar organisasi, peningkatan rasa kebersamaan, serta pembekalan awal bagi mahasiswa dan pengurus BEM. Melalui pendekatan yang partisipatif dan kekeluargaan, divisi ini mendukung terciptanya sumber daya mahasiswa yang siap tumbuh, berkontribusi, dan berkembang bersama organisasi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. EKOKRAF -->
+            <div class="strategis-group" data-aos="fade-up" data-aos-delay="500">
+                <div class="strategis-header-main" onclick="toggleStrategis(this)">
+                    <div class="strategis-left">
+                        <div class="strategis-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="strategis-info">
+                            <h3 class="strategis-title">DEPARTEMEN EKONOMI KREATIF</h3>
+                            <p class="strategis-subtitle">2 Divisi</p>
+                        </div>
+                    </div>
+                    <div class="strategis-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="strategis-content">
+                    <p class="strategis-description">
+                        Departemen Ekonomi Kreatif berperan dalam mendorong kemandirian, kreativitas, dan inovasi mahasiswa Fakultas Vokasi di bidang ekonomi. Rencana strategis departemen ini diarahkan pada pengembangan potensi ekonomi kreatif mahasiswa sebagai bentuk adaptasi terhadap tantangan zaman serta upaya membangun organisasi yang produktif dan berdaya saing. Departemen ini menjadi ruang bagi mahasiswa untuk mengembangkan ide, kreativitas, dan jiwa kewirausahaan yang aplikatif dan berkelanjutan.
+                    </p>
+                    
+                    <!-- Sub Units -->
+                    <div class="sub-units">
+                        <!-- Divisi Entrepreneur -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-store"></i>
+                                <h4>Divisi Entrepreneur</h4>
+                            </div>
+                            <p>
+                                Divisi Entrepreneur berfokus pada penguatan jiwa kewirausahaan dan kemandirian ekonomi mahasiswa. Rencana strategis divisi ini diarahkan pada pengembangan kemampuan mahasiswa dalam mengelola ide usaha, meningkatkan kreativitas produk, serta menumbuhkan pola pikir inovatif dan mandiri. Divisi ini mendorong mahasiswa Fakultas Vokasi untuk berani berkarya dan menciptakan peluang ekonomi secara nyata dan relevan.
+                            </p>
+                        </div>
+
+                        <!-- Divisi Kemitraan -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-handshake"></i>
+                                <h4>Divisi Kemitraan</h4>
+                            </div>
+                            <p>
+                                Divisi Kemitraan berperan dalam membangun dan memperluas kerjasama strategis dengan berbagai pihak eksternal. Rencana strategis divisi ini difokuskan pada penguatan jejaring dan kolaborasi yang saling menguntungkan guna mendukung keberlangsungan dan pengembangan aktivitas ekonomi kreatif mahasiswa. Melalui kemitraan yang terarah, divisi ini membantu memperkuat posisi BEM KM Fakultas Vokasi sebagai organisasi yang terbuka, kolaboratif, dan adaptif.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. KARISPOL -->
+            <div class="strategis-group" data-aos="fade-up" data-aos-delay="600">
+                <div class="strategis-header-main" onclick="toggleStrategis(this)">
+                    <div class="strategis-left">
+                        <div class="strategis-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="strategis-info">
+                            <h3 class="strategis-title">DEPARTEMEN KAJIAN DAN RISET POLITIK</h3>
+                            <p class="strategis-subtitle">2 Divisi</p>
+                        </div>
+                    </div>
+                    <div class="strategis-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="strategis-content">
+                    <p class="strategis-description">
+                        Departemen Karispol berperan sebagai ruang intelektual dan gerakan kritis mahasiswa Fakultas Vokasi dalam merespons dinamika sosial, politik, dan kebijakan publik. Rencana strategis departemen ini diarahkan pada penguatan kesadaran kritis mahasiswa, peningkatan budaya diskusi yang sehat, serta keterlibatan aktif mahasiswa dalam isu-isu strategis kemahasiswaan dan sosial. Karispol hadir untuk memastikan mahasiswa vokasi tidak hanya adaptif, tetapi juga peka, berani bersuara, dan mampu bersikap secara argumentatif serta bertanggung jawab.
+                    </p>
+                    
+                    <!-- Sub Units -->
+                    <div class="sub-units">
+                        <!-- Divisi Pergerakan -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-fist-raised"></i>
+                                <h4>Divisi Pergerakan</h4>
+                            </div>
+                            <p>
+                                Divisi Pergerakan berfokus pada penguatan peran mahasiswa sebagai subjek perubahan sosial. Rencana strategis divisi ini diarahkan pada upaya membangun kesadaran kolektif mahasiswa Fakultas Vokasi terhadap isu-isu, kebijakan, dan politik melalui gerakan yang terarah dan edukatif. Melalui pelaksanaan Gerakan Vokasi dan Diskusi Politik, divisi ini mendorong partisipasi aktif mahasiswa dalam menyampaikan aspirasi, memperluas wawasan kebangsaan, serta menumbuhkan keberanian untuk terlibat dalam ruang-ruang demokrasi secara konstruktif.
+                            </p>
+                        </div>
+
+                        <!-- Divisi Kajian -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-book-reader"></i>
+                                <h4>Divisi Kajian</h4>
+                            </div>
+                            <p>
+                                Divisi Kajian berperan sebagai pusat analisis dan pendalaman isu strategis. Rencana strategis divisi ini difokuskan pada pengembangan budaya berpikir kritis, analitis, dan berbasis data di kalangan mahasiswa Fakultas Vokasi. Melalui kegiatan Bedah Isu dan Seminar Politik, divisi ini menyediakan ruang intelektual untuk memahami persoalan sosial dan politik secara komprehensif, sekaligus membekali mahasiswa dengan kemampuan menyikapi isu secara objektif, akademis, dan solutif.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7. MEDKRAF -->
+            <div class="strategis-group" data-aos="fade-up" data-aos-delay="700">
+                <div class="strategis-header-main" onclick="toggleStrategis(this)">
+                    <div class="strategis-left">
+                        <div class="strategis-icon">
+                            <i class="fas fa-camera-retro"></i>
+                        </div>
+                        <div class="strategis-info">
+                            <h3 class="strategis-title">DEPARTEMEN MEDIA KREATIF</h3>
+                            <p class="strategis-subtitle">2 Divisi</p>
+                        </div>
+                    </div>
+                    <div class="strategis-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="strategis-content">
+                    <p class="strategis-description">
+                        Departemen Media Kreatif berperan sebagai pusat komunikasi dan visualisasi kegiatan BEM KM Fakultas Vokasi. Rencana strategis departemen ini diarahkan pada penguatan citra organisasi sebagai wadah kolaborasi dan aksi mahasiswa yang progresif, adaptif, dan berintegritas. Medkraf bertanggung jawab memastikan setiap pesan, kegiatan, dan nilai organisasi tersampaikan secara efektif, menarik, serta relevan bagi mahasiswa melalui pemanfaatan media yang kreatif dan komunikatif.
+                    </p>
+                    
+                    <!-- Sub Units -->
+                    <div class="sub-units">
+                        <!-- Divisi Media Production -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-video"></i>
+                                <h4>Divisi Media Production</h4>
+                            </div>
+                            <p>
+                                Divisi Media Production berfokus pada produksi dan pengelolaan konten visual organisasi. Rencana strategis divisi ini diarahkan pada peningkatan kualitas visualisasi kegiatan BEM melalui pengolahan video grafis dan desain grafis yang informatif serta estetis. Divisi ini berperan mendukung dokumentasi kegiatan dan penyampaian informasi organisasi secara profesional agar mudah dipahami dan menarik bagi audiens.
+                            </p>
+                        </div>
+
+                        <!-- Divisi Branding dan Marketing -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-bullseye"></i>
+                                <h4>Divisi Branding dan Marketing</h4>
+                            </div>
+                            <p>
+                                Divisi Branding dan Marketing bertanggung jawab dalam membangun dan menjaga identitas serta citra BEM KM Fakultas Vokasi di ruang publik. Rencana strategis divisi ini difokuskan pada pengelolaan media sosial organisasi secara konsisten dan terarah, serta pengemasan konten yang komunikatif dan relevan dengan karakter mahasiswa. Melalui strategi branding yang tepat, divisi ini membantu memperkuat kedekatan organisasi dengan mahasiswa serta meningkatkan partisipasi dan kepercayaan publik internal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8. EKSTERNAL -->
+            <div class="strategis-group" data-aos="fade-up" data-aos-delay="800">
+                <div class="strategis-header-main" onclick="toggleStrategis(this)">
+                    <div class="strategis-left">
+                        <div class="strategis-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="strategis-info">
+                            <h3 class="strategis-title">DEPARTEMEN EKSTERNAL</h3>
+                            <p class="strategis-subtitle">2 Divisi</p>
+                        </div>
+                    </div>
+                    <div class="strategis-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="strategis-content">
+                    <p class="strategis-description">
+                        Departemen Eksternal berperan dalam memperluas jejaring, memperkuat kolaborasi, dan membangun sinergi kelembagaan BEM KM Fakultas Vokasi, baik di tingkat internal fakultas maupun lintas kampus. Rencana strategis departemen ini diarahkan pada penguatan komunikasi eksternal yang harmonis serta peningkatan posisi BEM sebagai organisasi yang terbuka, kolaboratif, dan adaptif terhadap dinamika kemahasiswaan. Departemen ini menjadi penghubung strategis antara BEM KM Fakultas Vokasi dengan berbagai elemen organisasi mahasiswa dan lembaga eksternal.
+                    </p>
+                    
+                    <!-- Sub Units -->
+                    <div class="sub-units">
+                        <!-- Divisi Jaringan Eksternal -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-network-wired"></i>
+                                <h4>Divisi Jaringan Eksternal</h4>
+                            </div>
+                            <p>
+                                Divisi Jaringan Eksternal berfokus pada pengembangan relasi kelembagaan di luar lingkungan fakultas. Rencana strategis divisi ini diarahkan pada perluasan wawasan dan pertukaran gagasan melalui kerja sama dengan BEM atau lembaga mahasiswa Fakultas Vokasi di tingkat nasional. Melalui kegiatan studi banding lintas fakultas vokasi, divisi ini mendorong terciptanya kolaborasi, adopsi praktik baik organisasi, serta penguatan perspektif mahasiswa vokasi dalam skala yang lebih luas.
+                            </p>
+                        </div>
+
+                        <!-- Divisi Sinergi Mahasiswa -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-users"></i>
+                                <h4>Divisi Sinergi Mahasiswa</h4>
+                            </div>
+                            <p>
+                                Divisi Sinergi Mahasiswa berperan dalam memperkuat hubungan dan kolaborasi antar organisasi mahasiswa di lingkungan Fakultas Vokasi UNY. Rencana strategis divisi ini difokuskan pada penciptaan komunikasi yang aktif dan harmonis dengan elemen lembaga eksekutif fakultas, mulai dari Himpunan Mahasiswa Departemen hingga UKM fakultas. Melalui Sambang Ormawa dan Open House Ormawa Fakultas Vokasi, divisi ini mendorong terciptanya ruang kolaboratif, pertukaran informasi, serta penguatan solidaritas antar organisasi kemahasiswaan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9. MIKAT -->
+            <div class="strategis-group" data-aos="fade-up" data-aos-delay="900">
+                <div class="strategis-header-main" onclick="toggleStrategis(this)">
+                    <div class="strategis-left">
+                        <div class="strategis-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="strategis-info">
+                            <h3 class="strategis-title">DEPARTEMEN MINAT DAN BAKAT</h3>
+                            <p class="strategis-subtitle">2 Divisi</p>
+                        </div>
+                    </div>
+                    <div class="strategis-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="strategis-content">
+                    <p class="strategis-description">
+                        Departemen Minat dan Bakat berperan sebagai wadah pengembangan potensi, kreativitas, dan prestasi mahasiswa Fakultas Vokasi. Rencana strategis departemen ini diarahkan pada penciptaan ruang partisipatif yang inklusif bagi mahasiswa untuk menyalurkan minat dan bakatnya, baik di bidang akademik maupun non akademik. Departemen ini mendukung terwujudnya mahasiswa vokasi yang aktif, berprestasi, dan percaya diri dalam mengembangkan potensi diri secara berkelanjutan.
+                    </p>
+                    
+                    <!-- Sub Units -->
+                    <div class="sub-units">
+                        <!-- Divisi Kompetisi -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-medal"></i>
+                                <h4>Divisi Kompetisi</h4>
+                            </div>
+                            <p>
+                                Divisi Kompetisi berfokus pada fasilitasi pengembangan minat dan bakat mahasiswa melalui iklim kompetisi yang sehat dan sportif. Rencana strategis divisi ini diarahkan pada penyelenggaraan kegiatan yang mendorong partisipasi aktif mahasiswa dalam bidang olahraga dan seni, sekaligus menanamkan nilai sportivitas, kebersamaan, dan semangat berprestasi di lingkungan Fakultas Vokasi.
+                            </p>
+                        </div>
+
+                        <!-- Divisi Eksibisi Prestasi -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-award"></i>
+                                <h4>Divisi Eksibisi Prestasi</h4>
+                            </div>
+                            <p>
+                                Divisi Eksibisi Prestasi (Ekspres) berperan dalam meningkatkan eksposur dan apresiasi terhadap capaian mahasiswa Fakultas Vokasi. Rencana strategis divisi ini difokuskan pada penyediaan informasi lomba yang relevan dengan pendidikan vokasi serta pemberian apresiasi kepada mahasiswa berprestasi. Melalui peran ini, divisi Ekspres mendorong motivasi mahasiswa untuk terus berkarya, berkompetisi, dan mengharumkan nama Fakultas Vokasi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10. KESMA -->
+            <div class="strategis-group" data-aos="fade-up" data-aos-delay="1000">
+                <div class="strategis-header-main" onclick="toggleStrategis(this)">
+                    <div class="strategis-left">
+                        <div class="strategis-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="strategis-info">
+                            <h3 class="strategis-title">DEPARTEMEN KESEJAHTERAAN MAHASISWA</h3>
+                            <p class="strategis-subtitle">2 Divisi</p>
+                        </div>
+                    </div>
+                    <div class="strategis-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="strategis-content">
+                    <p class="strategis-description">
+                        Departemen Kesejahteraan Mahasiswa berperan sebagai garda terdepan dalam memperjuangkan hak, kebutuhan, dan kesejahteraan mahasiswa Fakultas Vokasi. Rencana strategis departemen ini diarahkan pada penguatan fungsi advokasi, peningkatan akses informasi, serta penciptaan lingkungan kemahasiswaan yang suportif dan responsif. Departemen ini hadir untuk memastikan suara mahasiswa tersampaikan dengan baik serta kebutuhan akademik dan nonakademik mahasiswa dapat diakomodasi secara tepat dan berkelanjutan.
+                    </p>
+                    
+                    <!-- Sub Units -->
+                    <div class="sub-units">
+                        <!-- Divisi Advokasi -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-gavel"></i>
+                                <h4>Divisi Advokasi</h4>
+                            </div>
+                            <p>
+                                Divisi Advokasi berfokus pada penyaluran aspirasi dan penyelesaian permasalahan mahasiswa Fakultas Vokasi. Rencana strategis divisi ini diarahkan pada penguatan komunikasi antara mahasiswa dan pihak fakultas melalui forum dialog yang konstruktif. Melalui Temu Dekanat, Call Center, dan SIGAP Vokasi, divisi ini membangun sistem advokasi yang terbuka, responsif, dan solutif agar setiap keluhan dan aspirasi mahasiswa dapat ditindaklanjuti secara tepat dan bertanggung jawab.
+                            </p>
+                        </div>
+
+                        <!-- Divisi Kesejahteraan Mahasiswa -->
+                        <div class="sub-unit-card">
+                            <div class="sub-unit-header">
+                                <i class="fas fa-hand-holding-usd"></i>
+                                <h4>Divisi Kesejahteraan Mahasiswa</h4>
+                            </div>
+                            <p>
+                                Divisi Kesejahteraan berperan dalam pemenuhan kebutuhan informasi dan peningkatan kesejahteraan mahasiswa. Rencana strategis divisi ini difokuskan pada penyediaan informasi seputar UNY dan kemahasiswaan melalui Vokasipedia, penghimpunan serta publikasi prestasi mahasiswa melalui Vokasi Berprestasi, serta penyebaran informasi beasiswa yang relevan. Melalui peran ini, divisi kesejahteraan mendukung mahasiswa agar lebih terinformasi, termotivasi, dan memiliki akses yang luas terhadap peluang pengembangan diri.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     SECTION: GRAND DESIGN CTA
+     ======================================== -->
+<section id="grand-design-cta" class="section section-cta">
+    <div class="container">
+        <div class="cta-wrapper" data-aos="zoom-in" data-aos-duration="800">
+            
+            <!-- CTA Icon -->
+            <div class="cta-icon-wrapper">
+                <div class="cta-icon-bg"></div>
+                <div class="cta-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </div>
+
+            <!-- CTA Content -->
+            <div class="cta-content">
+                <h3 class="cta-title">Grand Design Kabinet</h3>
+                <p class="cta-description">
+                    Pelajari lebih detail tentang rencana kerja, program strategis, dan visi misi BEM KM Fakultas Vokasi UNY Periode 2026 dalam dokumen Grand Design lengkap
+                </p>
+                
+                <!-- CTA Buttons -->
+                <div class="cta-buttons">
+                    <a href="https://www.canva.com/design/DAGzbBS8J2E/KWuufdlf08bNCwKcvTy8zA/view?utm_content=DAGzbBS8J2E&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h10a9816e52" target="_blank" rel="noopener noreferrer" class="btn-cta btn-primary">
+                        <i class="fas fa-download"></i>
+                        <span>Look Grand Design</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="https://www.canva.com/design/DAGzbBS8J2E/KWuufdlf08bNCwKcvTy8zA/view?utm_content=DAGzbBS8J2E&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h10a9816e52" target="_blank" rel="noopener noreferrer" class="btn-cta btn-secondary">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span>Lihat di Canva</span>
+                    </a>
+                </div>
+
+                <!-- CTA Info -->
+                <div class="cta-info">
+                    <div class="cta-info-item">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Format PDF</span>
+                    </div>
+                    <div class="cta-info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Update 2026</span>
+                    </div>
+                    <div class="cta-info-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Dokumen Resmi</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- ===== STRUKTUR ORGANISASI ===== -->
+    <section id="struktur" class="section section-struktur">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">STRUKTUR ORGANISASI</h2>
+                <div class="title-divider"></div>
+            </div>
+            
+            <div class="organogram-container" data-aos="zoom-in">
+                <div class="organogram-wrapper">
+                    <img src="organogram.png" alt="Struktur Organisasi BEM GELORA AKSI" class="organogram-img">
+                    <div class="zoom-hint">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Klik untuk memperbesar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== OPEN RECRUITMENT (DI BAWAH) ===== -->
+    <section id="recruitment" class="section section-recruitment">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">OPEN RECRUITMENT</h2>
+                <div class="title-divider"></div>
+                <p class="section-subtitle">Bergabunglah Bersama Kami!</p>
+            </div>
+            
+            <div class="recruitment-tabs" data-aos="fade-up" data-aos-delay="100">
+                <button class="tab-btn active" data-tab="pengurus-inti">
+                    <i class="fas fa-crown"></i>
+                    <span>Pengurus Inti</span>
+                </button>
+                <button class="tab-btn" data-tab="pengurus-harian">
+                    <i class="fas fa-users-cog"></i>
+                    <span>Pengurus Harian</span>
+                </button>
+                <button class="tab-btn" data-tab="staff-pengurus">
+                    <i class="fas fa-user-friends"></i>
+                    <span>Staff Pengurus</span>
+                </button>
+            </div>
+            
+            <!-- PENGURUS INTI -->
+            <div id="pengurus-inti" class="recruitment-detail active-tab">
+                <div class="recruitment-card glass-card" data-aos="fade-up">
+                    <div class="recruitment-header">
+                        <h3>Pengurus Inti</h3>
+                        <span class="status-badge status-open">
+                            <i class="fas fa-check-circle"></i> Pendaftaran Dibuka
+                        </span>
+                    </div>
+                    
+                    <div class="recruitment-content">
+                        <!-- POSISI YANG DIBUKA -->
+                        <div class="info-box">
+                            <h4><i class="fas fa-clipboard-list"></i> Posisi yang Dibuka</h4>
+                            <p class="info-subtitle">Ketua dan Sekretaris dari:</p>
+                            <div class="position-grid-new">
+                                <div class="position-item-new">
+                                    <i class="fas fa-building"></i>
+                                    <p>KESEKJENAN</p>
+                                </div>
+                                <div class="position-item-new">
+                                    <i class="fas fa-certificate"></i>
+                                    <p>BADAN JAMINAN MUTU ORGANISASI (BJMO)</p>
+                                </div>
+                                <div class="position-item-new">
+                                    <i class="fas fa-hand-holding-heart"></i>
+                                    <p>DEPARTEMEN KESEJAHTERAAN MAHASISWA (KESMA)</p>
+                                </div>
+                                <div class="position-item-new">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <p>DEPARTEMEN PENGEMBANGAN SUMBER DAYA MAHASISWA (PSDM)</p>
+                                </div>
+                                <div class="position-item-new">
+                                    <i class="fas fa-hands-helping"></i>
+                                    <p>DEPARTEMEN SOSIAL MASYARAKAT (SOSMAS)</p>
+                                </div>
+                                <div class="position-item-new">
+                                    <i class="fas fa-camera-retro"></i>
+                                    <p>DEPARTEMEN MEDIA KREATIF (MEDKRAF)</p>
+                                </div>
+                                <div class="position-item-new">
+                                    <i class="fas fa-chart-line"></i>
+                                    <p>DEPARTEMEN EKONOMI KREATIF (EKOKRAF)</p>
+                                </div>
+                                <div class="position-item-new">
+                                    <i class="fas fa-globe"></i>
+                                    <p>DEPARTEMEN EKSTERNAL</p>
+                                </div>
+                                <div class="position-item-new">
+                                    <i class="fas fa-book-reader"></i>
+                                    <p>DEPARTEMEN KAJIAN RISET POLITIK (KARISPOL)</p>
+                                </div>
+                                <div class="position-item-new">
+                                    <i class="fas fa-star"></i>
+                                    <p>DEPARTEMEN MINAT BAKAT (MIKAT)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- PERSYARATAN -->
+                        <div class="info-box">
+                            <h4><i class="fas fa-info-circle"></i> Persyaratan</h4>
+                            <ul>
+                                <li>Mahasiswa/i FV UNY 2023 & 2024</li>
+                                <li>Bersedia Mengisi Semua Berkas Pendaftaran</li>
+                                <li>Menyertakan CV dalam Berkas Pendaftaran</li>
+                                <li>Memahami Grand Design BEM KM FV UNY 2026</li>
+                                <li>Memiliki Konsep yang akan dibawakan selama 1 periode</li>
+                                <li>Memiliki Komitmen untuk Aktif dan Berkontribusi dalam periode BEM KM FV UNY 2026</li>
+                            </ul>
+                        </div>
+
+                         <!-- TIMELINE PENDAFTARAN -->
+<div class="info-box">
+    <h4><i class="fas fa-calendar-alt"></i> Timeline Pendaftaran</h4>
+    <p class="info-subtitle">Jadwal lengkap proses rekrutmen Pengurus Inti BEM KM FV UNY 2026</p>
+    
+    <div class="timeline-recruitment">
+        <!-- Timeline Item 1: Pendaftaran -->
+        <div class="timeline-item-recruitment">
+            <div class="timeline-marker">
+                <div class="timeline-icon-wrapper">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-content-recruitment">
+                <div class="timeline-header">
+                    <h5>Pendaftaran</h5>
+                    <span class="timeline-badge badge-open">Dibuka</span>
+                </div>
+                <div class="timeline-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>5 - 10 Januari 2026</span>
+                </div>
+                <p class="timeline-desc">
+                    Periode pendaftaran dan pengumpulan berkas calon Pengurus Inti. 
+                    Pastikan semua dokumen lengkap sebelum batas waktu.
+                </p>
+            </div>
+        </div>
+
+        <!-- Timeline Item 2: Seleksi Berkas -->
+        <div class="timeline-item-recruitment">
+            <div class="timeline-marker">
+                <div class="timeline-icon-wrapper">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-content-recruitment">
+                <div class="timeline-header">
+                    <h5>Seleksi Berkas</h5>
+                    <span class="timeline-badge badge-upcoming">Akan Datang</span>
+                </div>
+                <div class="timeline-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>10 - 13 Januari 2026</span>
+                </div>
+                <p class="timeline-desc">
+                    Tim seleksi akan mengevaluasi kelengkapan dan kesesuaian berkas pendaftaran. 
+                    Pengumuman lolos seleksi berkas akan diumumkan via group WhatsApp
+                </p>
+            </div>
+        </div>
+
+        <!-- Timeline Item 3: Wawancara -->
+        <div class="timeline-item-recruitment">
+            <div class="timeline-marker">
+                <div class="timeline-icon-wrapper">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-content-recruitment">
+                <div class="timeline-header">
+                    <h5>Wawancara</h5>
+                    <span class="timeline-badge badge-upcoming">Akan Datang</span>
+                </div>
+                <div class="timeline-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>14 - 15 Januari 2026</span>
+                </div>
+                <p class="timeline-desc">
+                    Tahap wawancara dengan tim seleksi untuk menggali kompetensi calon. 
+                    Jadwal wawancara akan dikirimkan H-1 sebelum pelaksanaan.
+                </p>
+            </div>
+        </div>
+
+        <!-- Timeline Item 4: Pengumuman -->
+        <div class="timeline-item-recruitment">
+            <div class="timeline-marker">
+                <div class="timeline-icon-wrapper">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <!-- No line for last item -->
+            </div>
+            <div class="timeline-content-recruitment">
+                <div class="timeline-header">
+                    <h5>Pengumuman</h5>
+                    <span class="timeline-badge badge-upcoming">Akan Datang</span>
+                </div>
+                <div class="timeline-date">
+                    <i class="fas fa-calendar"></i>
+                    <span>18 Januari 2026</span>
+                </div>
+                <p class="timeline-desc">
+                    Pengumuman hasil akhir seleksi Pengurus Inti BEM KM FV UNY 2026. 
+                    Selamat kepada calon yang terpilih!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        
+                        <!-- ALUR PENDAFTARAN -->
+<div class="info-box">
+    <h4><i class="fas fa-route"></i> Alur Pendaftaran</h4>
+    <p class="info-subtitle">Ikuti langkah-langkah berikut untuk mendaftar sebagai Pengurus Inti BEM KM FV UNY 2026</p>
+    
+    <div class="flow-steps">
+        <!-- Step 1: Menentukan Pilihan -->
+        <div class="flow-step">
+            <div class="flow-number">1</div>
+            <div class="flow-content">
+                <h5>Menentukan Pilihan</h5>
+                <p>Maksimal 2 Pilihan Departemen yang Tersedia</p>
+            </div>
+        </div>
+        
+        <!-- Arrow Down -->
+        <div class="flow-arrow">
+            <i class="fas fa-arrow-down"></i>
+        </div>
+        
+        <!-- Step 2: Mengunduh & Mengisi Berkas -->
+        <div class="flow-step">
+            <div class="flow-number">2</div>
+            <div class="flow-content">
+                <h5>Mengunduh & Mengisi Berkas</h5>
+                <p>Unduh dan Isi Semua Berkas Pendaftaran (Formulir, Surat Komitmen, CV)</p>
+            </div>
+        </div>
+        
+        <!-- Arrow Down -->
+        <div class="flow-arrow">
+            <i class="fas fa-arrow-down"></i>
+        </div>
+        
+        <!-- Step 3: Upload Berkas -->
+        <div class="flow-step">
+            <div class="flow-number">3</div>
+            <div class="flow-content">
+                <h5>Upload Berkas</h5>
+                <p>Upload semua berkas yang sudah diisi melalui Google Form yang tersedia</p>
+            </div>
+        </div>
+        
+        <!-- Arrow Down -->
+        <div class="flow-arrow">
+            <i class="fas fa-arrow-down"></i>
+        </div>
+        
+        <!-- Step 4: Menunggu Konfirmasi -->
+        <div class="flow-step">
+            <div class="flow-number">4</div>
+            <div class="flow-content">
+                <h5>Konfirmasi</h5>
+                <p>Silahkan lakukan konfirmasi menuju Contact Person yang telah di sediakan.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        <!-- DOWNLOAD BERKAS -->
+                        <div class="info-box">
+                            <h4><i class="fas fa-download"></i> Unduh Berkas Pendaftaran</h4>
+                            <div class="download-buttons">
+                                <a href="https://docs.google.com/document/d/1Lv6-JLswPNuYt3eqpq_ECV61Uz37mBHz/edit?usp=sharing&ouid=116972543511515300932&rtpof=true&sd=true" class="download-btn" target="_blank">
+                                    <i class="fas fa-file-alt"></i>
+                                    <span>Formulir Pendaftaran</span>
+                                </a>
+                                <a href="https://docs.google.com/document/d/1g489PmX_W8ELcSECsXU1RtcrFO1c4YtD/edit?usp=sharing&ouid=116972543511515300932&rtpof=true&sd=true" class="download-btn" target="_blank">
+                                    <i class="fas fa-file-signature"></i>
+                                    <span>Surat Komitmen</span>
+                                </a>
+                                <a href="https://drive.google.com/file/d/16VSvzrRmLOcVlIYEOYNhvpKkHoAGZL56/view?usp=sharing" class="download-btn" target="_blank">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>Contoh CV</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- UPLOAD BERKAS -->
+                        <div class="upload-section">
+                            <a href="https://docs.google.com/forms/d/1tqGCOJFbF4mYbGnfcfbDZTEpnN7kpyxEzcbihblqIT4/edit" class="btn-upload" target="_blank">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span>Upload Berkas Pendaftaran</span>
+                            </a>
+                        </div>
+                        
+                        <!-- CONTACT PERSON -->
+                        <div class="cp-section">
+                            <h4><i class="fas fa-phone-alt"></i> Hubungi Contact Person</h4>
+                            <div class="cp-buttons">
+                                <a href="https://wa.me/6281249556414" class="cp-btn" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <div class="cp-info">
+                                        <span class="cp-name">DIO</span>
+                                        <span class="cp-number">081249556414</span>
+                                    </div>
+                                </a>
+                                <a href="https://wa.me/6288216132693" class="cp-btn" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <div class="cp-info">
+                                        <span class="cp-name">DINI</span>
+                                        <span class="cp-number">088216132693</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PENGURUS HARIAN -->
+            <div id="pengurus-harian" class="recruitment-detail">
+                <div class="recruitment-card glass-card" data-aos="fade-up">
+                    <div class="recruitment-header">
+                        <h3>Pengurus Harian</h3>
+                        <span class="status-badge status-coming-soon">
+                            <i class="fas fa-clock"></i> Segera Hadir
+                        </span>
+                    </div>
+                    
+                    <div class="recruitment-content">
+                        <div class="coming-soon-message">
+                            <div class="coming-soon-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4>SEGERA HADIR</h4>
+                            <p>Pendaftaran Pengurus Harian akan dibuka setelah seleksi pengurus inti selesai</p>
+                            <div class="coming-soon-note">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Pantau terus website dan media sosial kami untuk informasi lebih lanjut</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- STAFF PENGURUS -->
+            <div id="staff-pengurus" class="recruitment-detail">
+                <div class="recruitment-card glass-card" data-aos="fade-up">
+                    <div class="recruitment-header">
+                        <h3>Staff Pengurus</h3>
+                        <span class="status-badge status-coming-soon">
+                            <i class="fas fa-clock"></i> Segera Hadir
+                        </span>
+                    </div>
+                    
+                    <div class="recruitment-content">
+                        <div class="coming-soon-message">
+                            <div class="coming-soon-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4>SEGERA HADIR</h4>
+                            <p>Pendaftaran Staff Pengurus akan dibuka setelah seleksi pengurus inti selesai</p>
+                            <div class="coming-soon-note">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Pantau terus website dan media sosial kami untuk informasi lebih lanjut</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ========================================
+     SECTION: HUBUNGI KAMI
+     ======================================== -->
+<section id="hubungi-kami" class="section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">HUBUNGI <span class="highlight">KAMI</span></h2>
+            <p class="section-description">
+                Ada pertanyaan? Jangan ragu untuk menghubungi kami!
+            </p>
+        </div>
+
+        <!-- Contact Cards -->
+        <div class="contact-cards-wrapper">
+            
+            <!-- Card 1: Alamat -->
+            <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="contact-card-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-card-content">
+                    <h3 class="contact-card-title">Alamat</h3>
+                    <p class="contact-card-text">
+                        Fakultas Vokasi UNY<br>
+                        Jl. Mandung, Serut, Pengasih, Kec. Wates, Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta 55651<br>
+                        Yogyakarta 55281
+                    </p>
+                    <a href="https://maps.app.goo.gl/AEY4PZUis1uSqr7u6" target="_blank" rel="noopener noreferrer" class="contact-card-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        Buka di Google Maps
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 2: Email -->
+            <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="contact-card-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-card-content">
+                    <h3 class="contact-card-title">Email</h3>
+                    <p class="contact-card-text">
+                        <a href="mailto:fv@uny.ac.id" class="contact-email">fv@uny.ac.id</a><br>
+                    </p>
+                    <a href="mailto:fv@uny.ac.id" class="contact-card-link">
+                        <i class="fas fa-paper-plane"></i>
+                        Kirim Email
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 3: Telepon -->
+            <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="contact-card-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contact-card-content">
+                    <h3 class="contact-card-title">Telepon</h3>
+                    <p class="contact-card-text">
+                        <a href="tel:0274774625" class="contact-phone">0274774625</a><br>
+                    </p>
+                    <a href="https://www.google.com/search?client=ms-android-samsung-ga-rev1&hs=RR6o&sca_esv=a1d45f8b5f97718d&hl=in-ID&cs=1&sxsrf=AE3TifNnMU5t1r1QpUoDOc6AGi_jBJCTvg%3A1767534781213&kgmid=%2Fg%2F1ptykclsc&q=Fakultas%20Vokasi%20Universitas%20Negeri%20Yogyakarta%20Kampus%20Wates&shndl=30&shem=ptotple&source=sh%2Fx%2Floc%2Fact%2Fm1%2F4&kgs=a7c63317df84e7d8" target="_blank" rel="noopener noreferrer" class="contact-card-link">
+                        <i class="fab fa-whatsapp"></i>
+                        Chat WhatsApp
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="contact-social" data-aos="fade-up" data-aos-delay="400">
+            <h3 class="contact-social-title">Ikuti Kami</h3>
+            <div class="social-links-grid">
+                
+                <!-- Instagram -->
+                <a href="https://instagram.com/bemvokasiuny" target="_blank" rel="noopener noreferrer" class="social-link-item instagram-link">
+                    <div class="social-icon-circle">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <span class="social-name">Instagram</span>
+                </a>
+                
+                <!-- YouTube -->
+                <a href="https://youtube.com/@bemvokasiuny?si=0_O51J3WNcm9kGyO" target="_blank" rel="noopener noreferrer" class="social-link-item youtube-link">
+                    <div class="social-icon-circle">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <span class="social-name">YouTube</span>
+                </a>
+                
+                <!-- TikTok -->
+                <a href="https://www.tiktok.com/@bemfvuny?_r=1&_t=ZS-92n6CuQ75Im" target="_blank" rel="noopener noreferrer" class="social-link-item tiktok-link">
+                    <div class="social-icon-circle">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <span class="social-name">TikTok</span>
+                </a>
+                
+                <!-- Email -->
+                <a href="mailto:fv@uny.ac.id" class="social-link-item email-link">
+                    <div class="social-icon-circle">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <span class="social-name">Email</span>
+                </a>
+                
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo-kabinet.png" alt="Logo BEM">
+                    <h3>KABINET GELORA AKSI</h3>
+                    <p>BEM KM FV UNY 2026</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#recruitment">Open Recruitment</a></li>
+                        <li><a href="#tentang">Tentang</a></li>
+                        <li><a href="#program-unggulan">Program Unggulan</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Kontak</h4>
+                    <p><i class="fas fa-envelope"></i> fv@uny.ac.id</p>
+                    <p><i class="fas fa-phone"></i> +62 812-4955-6414</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Fakultas Vokasi UNY</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 BEM GELORA AKSI. All Rights Reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> by Tim IT BEM</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== FLOATING ACTION BUTTON ===== -->
+    <div class="fab-container" id="fab-container">
+        <button class="fab-main" id="fab-main" aria-label="Quick Actions">
+            <i class="fas fa-plus"></i>
+        </button>
+        <div class="fab-options">
+            <a href="#recruitment" class="fab-option" data-tooltip="Daftar">
+                <i class="fas fa-user-plus"></i>
+            </a>
+            <a href="https://wa.me/6281249556414" class="fab-option" data-tooltip="WhatsApp" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <button class="fab-option" id="scroll-to-top" data-tooltip="Ke Atas">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

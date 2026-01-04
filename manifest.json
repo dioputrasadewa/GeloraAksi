@@ -1,0 +1,32 @@
+{
+  "name": "BEM KM FV UNY 2026 - Kabinet GELORA AKSI",
+  "short_name": "GELORA AKSI",
+  "description": "Website resmi Kabinet GELORA AKSI BEM KM FV UNY 2026",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#470000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "logo-512.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "education",
+    "organization"
+  ],
+  "lang": "id",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
